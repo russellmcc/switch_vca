@@ -1,0 +1,72 @@
+Partlist exported from /Users/russruss/proj/hardware/synth/switching_vca/pcb/switching_vca.sch at 1/6/13 9:20 PM
+
+Assembly variant: 
+
+Part  Value          Device             Package  Description                                                                   
+C101  100pF          CAP1210            1210     Capacitor                                                                     
+C102  100pF          CAP1210            1210     Capacitor                                                                     
+C103  82pF           CAP1210            1210     Capacitor                                                                     
+C104  68pF           CAP1210            1210     Capacitor                                                                     
+C105  180pF          CAP1210            1210     Capacitor                                                                     
+C106  27pF           CAP1210            1210     Capacitor                                                                     
+C201  100pF          CAP1210            1210     Capacitor                                                                     
+C202  100pF          CAP1210            1210     Capacitor                                                                     
+C203  82pF           CAP1210            1210     Capacitor                                                                     
+C204  68pF           CAP1210            1210     Capacitor                                                                     
+C205  180pF          CAP1210            1210     Capacitor                                                                     
+C206  27pF           CAP1210            1210     Capacitor                                                                     
+C601  .1uF           CAP1210            1210     Capacitor                                                                     
+C602  .1uF           CAP1210            1210     Capacitor                                                                     
+C603  .1uF           CAP1210            1210     Capacitor                                                                     
+C604  .1uF           CAP1210            1210     Capacitor                                                                     
+C605  .1uF           CAP1210            1210     Capacitor                                                                     
+C606  .1uF           CAP1210            1210     Capacitor                                                                     
+C701  1uF            CAP0805            0805     Capacitor                                                                     
+C702  10uF           CAP1206            1206     Capacitor                                                                     
+D701                 DIODE-SCHOTTKY     SOD-323                                                                                
+IC301                V_REG_MIC2920      SOT223   MIC2920A (http://www.micrel.com/_PDF/mic2920.pdf) - 400mA output LDO Regulator
+J501  M08X2          M08X2              2X8                                                                                    
+POWER POWER_SIMPLE16 POWER_SIMPLE16     POWER_16                                                                               
+Q101  PMOS           MOSFET-PCHANNELSMD SOT23-3                                                                                
+Q102  NJFET          SST5484            SOT23    N-Channel JFETs                                                               
+Q201  PMOS           MOSFET-PCHANNELSMD SOT23-3                                                                                
+Q202  NJFET          SST5484            SOT23    N-Channel JFETs                                                               
+R3    10k            RESISTOR0603-RES   0603-RES Resistor                                                                      
+R102  3.0            RESISTOR0603-RES   0603-RES Resistor                                                                      
+R103  10k            RESISTOR0603-RES   0603-RES Resistor                                                                      
+R104  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R105  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R106  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R107  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R108  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R109  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R110  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R111  1k             RESISTOR0603-RES   0603-RES Resistor                                                                      
+R202  3.0            RESISTOR0603-RES   0603-RES Resistor                                                                      
+R204  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R205  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R206  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R207  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R208  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R209  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R211  1k             RESISTOR0603-RES   0603-RES Resistor                                                                      
+R220  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R301  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R302  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R303  47k            RESISTOR0603-RES   0603-RES Resistor                                                                      
+R304  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R305  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R306  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R307  47k            RESISTOR0603-RES   0603-RES Resistor                                                                      
+R308  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R401  330k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R402  330k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R403  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R404  100k           RESISTOR0603-RES   0603-RES Resistor                                                                      
+R701  10k            RESISTOR0603-RES   0603-RES Resistor                                                                      
+U101  LM319          LM393              SO08                                                                                   
+U102  LF353D         LF353D             SO08     OP AMP                                                                        
+U103  LF353D         LF353D             SO08     OP AMP                                                                        
+U201  LM319          LM393              SO08                                                                                   
+U203  LF353D         LF353D             SO08     OP AMP                                                                        
+U301  LF353D         LF353D             SO08     OP AMP                                                                        
