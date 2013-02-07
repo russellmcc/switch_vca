@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -2399,6 +2399,7 @@ NS Package M08A</description>
 <part name="JP1" library="SparkFun" deviceset="M05X2" device="PTH"/>
 <part name="U701" library="SparkFun" deviceset="V_REG_LDO" device="SMD"/>
 <part name="U101" library="russruss" deviceset="LM319" device=""/>
+<part name="TP102" library="SparkFun" deviceset="M01" device="PTH" value=""/>
 <part name="TP101" library="SparkFun" deviceset="M01" device="PTH" value=""/>
 </parts>
 <sheets>
@@ -2551,7 +2552,8 @@ NS Package M08A</description>
 <instance part="U101" gate="G$1" x="40.64" y="129.54"/>
 <instance part="U101" gate="G$2" x="73.66" y="121.92"/>
 <instance part="U101" gate="G$3" x="73.66" y="121.92"/>
-<instance part="TP101" gate="G$1" x="129.54" y="101.6" rot="R90"/>
+<instance part="TP102" gate="G$1" x="129.54" y="101.6" rot="R90"/>
+<instance part="TP101" gate="G$1" x="81.28" y="106.68" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -2796,6 +2798,9 @@ NS Package M08A</description>
 <junction x="86.36" y="121.92"/>
 <pinref part="U101" gate="G$2" pin="OUT"/>
 <wire x1="81.28" y1="121.92" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="TP101" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="121.92" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
+<junction x="81.28" y="121.92"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -3030,7 +3035,7 @@ NS Package M08A</description>
 <pinref part="U102" gate="A" pin="-IN"/>
 <wire x1="111.76" y1="116.84" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="TP101" gate="G$1" pin="1"/>
+<pinref part="TP102" gate="G$1" pin="1"/>
 <junction x="129.54" y="109.22"/>
 </segment>
 </net>
